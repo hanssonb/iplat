@@ -7,21 +7,18 @@ public class Config {
     public String getVersion() {
         return version;
     }
-
     public void setVersion(String version) {
         this.version = version;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
 
     @Override
     public String toString() {
-        return "Config [" + "version=" + version + ", " + " name=" + name + "]";
+        return String.format("Config [version=%s,  name=%s]", version, name);
     }
 }

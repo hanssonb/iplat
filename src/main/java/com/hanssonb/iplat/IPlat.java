@@ -18,7 +18,6 @@ public class IPlat {
 
     private static final Logger LOG = LogManager.getLogger(IPlat.class
             .getName());
-
     private IPlat() {
     }
 
